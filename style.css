@@ -1,3 +1,51 @@
-body {
-    background-color: rgba(93, 116, 136, 0.913);
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Mukta:wght@300;400&family=Poppins:wght@400;500&family=Vazirmatn:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: blanchedalmond;
+    font-family:'Mukta', sans-serif;
+}
+.navbar.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color:rgb(90, 127, 158);
+}
+.navbar .menu li {
+    list-style: none;
+    display:inline-block
+}
+
+
+
+
+
+.navbar .menu li a {
+    color: rgb(80, 120, 156);
 }
