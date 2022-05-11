@@ -8,6 +8,7 @@
 }
 .logo{
     font-size: 30px; 
+    font-weight: 600;
 }
 
 .max-width{
@@ -21,10 +22,11 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 15px 0;
-    background: rgb(201, 151, 107);
+    padding: 30px 0;
+    backgound: rgb(201, 151, 107);
     font-family:'Mukta', sans-serif;
 }
+
 .navbar .max-width{
     display: flex;
     align-items: center;
@@ -45,7 +47,12 @@
 .navbar .menu li a{
     color: rgb(26, 66, 101);
     font-size: 20px;
-    margin-left: 30px;  
+    margin-left: 30px; 
+    transition: color 0.4s ease;
+}
+.navbar .menu li a:hover{
+    color:rgb(106, 53, 205);
+
 }
 
 /* main section*/
@@ -55,8 +62,51 @@
     height:100vh;
     background-size: cover;
     background-attachment: fixed;
-    color:rgb(212, 205, 205);
+    color:rgb(44, 40, 40);
     min-height:500px;
     font-family:'Mukta', sans-serif;
+}
+.home .max-width{
+    margin:auto 0 auto 40px
+}
+.home .home-content .text-1{
+    font-size: 25px;
+}
+.home .home-content .text-2{
+    font-size: 55px;
+    margin-left: -3px;
+    font-weight: 500;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 6px 0;
+}
+.home .home-content .text-3 span{
+    color:rgb(201, 151, 107);
+    font-weight: 600;
+}
 
+/*media query portion*/
+@media (max-width: 990px){
+    .max-width{
+        padding: 0 50px;
+    }     
+    .navabr .menu{
+        position: fixed;
+        background:#111;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+      display: inline-block;  
+      margin:20px 0;
+      font-size: 25px;
+    }
 }
