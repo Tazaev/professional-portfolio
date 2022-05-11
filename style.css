@@ -6,46 +6,57 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.logo{
+    font-size: 30px; 
+}
 
-.max-width {
+.max-width{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
 
+/* nav bar styling */
 
-
-
-
-
-
-.navbar .max-width {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.navbar {
+.navbar{
     position: fixed;
     width: 100%;
-    background: blanchedalmond;
+    padding: 15px 0;
+    background: rgb(201, 151, 107);
     font-family:'Mukta', sans-serif;
 }
-.navbar.logo a {
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar.logo a{
     font-size: 35px;
     font-weight: 600;
     color:rgb(90, 127, 158);
 }
-.navbar .menu li {
+
+.navbar .menu li{
     list-style: none;
-    display:inline-block
+    display:inline-block;  
 }
 
+.navbar .menu li a{
+    color: rgb(26, 66, 101);
+    font-size: 20px;
+    margin-left: 30px;  
+}
 
+/* main section*/
+.home{
+    display:flex;
+    background: url(sea-edge-79ab30e2.png) no-repeat center;
+    height:100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(212, 205, 205);
+    min-height:500px;
+    font-family:'Mukta', sans-serif;
 
-
-
-.navbar .menu li a {
-    color: rgb(80, 120, 156);
 }
