@@ -21,7 +21,7 @@
 /* nav bar styling */
 
 .navbar{
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding: 30px 0;
     font-family:'Mukta', sans-serif;
@@ -223,4 +223,11 @@ button{
 button:hover{
     background-color: transparent;
     border: 2px solid rgb(201, 151, 107);
+    cursor: pointer;
 }
+.service{
+    background: #101010;
+    width:100%;
+    padding: 100px 0px;
+}
+
