@@ -89,6 +89,7 @@
     font-size: 55px;
     margin-left: -3px;
     font-weight: 500;
+    
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -170,7 +171,8 @@
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #200d4da9; 
+   /* background-color: #200d4da9;*/ 
+    background-image: conic-gradient(black, grey, black, grey, black);
 }
 .about img{
     height:auto;
@@ -230,4 +232,53 @@ button:hover{
     width:100%;
     padding: 100px 0px;
 }
+.title h2{
+    color: white;
+    font-size: 50px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 360px;
+    width: 330px;
+    padding: 20px 35px;
+    background:#191919;
+    border-radius: 20px;
+    margin:15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
 
+#avatar1{
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(201, 151, 107);
+    
+}
+
+.service{
+    
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
