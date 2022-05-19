@@ -358,3 +358,53 @@ button:hover{
     border: 2px solid rgb(201, 151, 107);
     cursor: pointer;
    }
+.lets-begin{
+    font-weight: bold;
+}
+   footer{
+       position:relative;
+       width: 100%;
+       height: 150px;
+       background: #101010;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+
+   footer p:nth-child(1){
+       font-size: 25px;
+       color: aliceblue;
+       margin-bottom: 20px;
+       font-weight: bold;
+
+   }
+   footer p:nth-child(2){
+       color:aliceblue;
+       font-size: 15px;
+       width: 450px;
+       text-align: center;
+       line-height: 25px;
+   }
+   .social{
+       display:flex;
+   }
+   .social a{
+       width: 30px;
+       height: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background: rgb(201, 151, 107);
+       border-radius: 50%;
+       margin: 20px;
+       color:aliceblue;
+       text-decoration: none;
+       font-size: 17px;
+
+   }
+
+   .social a:hover{
+       transform: scale(1.4);
+       transition: .4s;
+   }
