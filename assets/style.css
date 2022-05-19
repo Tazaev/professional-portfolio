@@ -328,12 +328,33 @@ button:hover{
 
    /*contacts portion*/
 
-   .contact{
+   .Contact{
        width: 100%;
-       height: 300px;
+       height: 175px;
        background: #111;
        display: flex;
        align-items: center;
        flex-direction: column;
        justify-content: center;
+   }
+   .Contact p{
+       color: aliceblue;
+       font-size: 25px;
+       font-weight: bold;
+       margin-bottom: 25px;
+   }
+   .Contact .button-2{
+    background-color: rgb(201, 151, 107);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:12px 30px;
+    border-radius: 30px;
+    transition: .5s;
+   }
+   .Contact .button-2:hover{
+    background-color: transparent;
+    border: 2px solid rgb(201, 151, 107);
+    cursor: pointer;
    }
